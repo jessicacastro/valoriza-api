@@ -83,6 +83,8 @@ yarn dev
 - [TypeORM](https://typeorm.io/#/) - TypeORM
 - [Yarn](https://yarnpkg.com/) - Yarn
 - [Typescript](https://www.npmjs.com/package/typescript) - Typescript
+- [JWT](https://jwt.io/) - JsonNWebToken
+- [Class Transformer](https://www.npmjs.com/package/class-transformer) - ClassTransformer
 
 
 ## 🎉 Aprendizados <a name = "acknowledgement"></a>
@@ -92,5 +94,6 @@ yarn dev
 - Utilização do typeorm
 - Construção de API Node com Typescript
 - Utilização de SQLite
+- Utilização da biblioteca class-transformer
 
 <p align="center">Made by 👩🏾‍💻 <a href="https://linkedin.com/in/jessicacastros">Jessica Castro</a> with 💙</p>
