@@ -40,7 +40,7 @@ Eu utilizei yarn, mas o processo é bem parecido para o NPM.
 
 ```
 node -v
-yarn -valoriza-api
+yarn -v
 npm -v
 ```
 
