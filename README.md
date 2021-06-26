@@ -13,7 +13,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 ![Top Language](https://img.shields.io/github/languages/top/jessicacastro/valoriza-api)
 ![Last Commit](https://img.shields.io/github/last-commit/jessicacastro/valoriza-api)
-![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fjessicacastro%2Fvaloriza-api)
+![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fjessicacastro%2Fvaloriza-api)
 </div>
 
 ---
@@ -62,13 +62,13 @@ yarn dev
 ## 🧐 Regras de Negócio <a name = "rules"></a>
 
 #### Cadastro de Usuários
-  - [ ] Não é permitido cadastrar mais de um usuário com o mesmo email
-  - [ ] Não é permitido cadastrar um usuário sem email
+  - [x] Não é permitido cadastrar mais de um usuário com o mesmo email
+  - [x] Não é permitido cadastrar um usuário sem email
 
 
 #### Cadastro de tags
   - [x] Não é permitido cadastrar mais de uma tag com o mesmo nome
-  - [ ] Não é permitido cadastrar uma tag sem nome
+  - [x] Não é permitido cadastrar uma tag sem nome
   - [ ] Não é permitido cadastro de tags por usuários que não sejam administradores
 #### Cadastro de Elogios
   - [ ] Não é permitido que o usuário cadastre um elogio para si
