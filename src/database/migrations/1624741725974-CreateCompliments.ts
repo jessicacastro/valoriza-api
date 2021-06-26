@@ -14,6 +14,7 @@ export class CreateCompliments1624741725974 implements MigrationInterface {
                 {
                     name: "user_sender",
                     type: "uuid",
+
                 },
                 {
                     name: "user_receiver",
@@ -31,6 +32,32 @@ export class CreateCompliments1624741725974 implements MigrationInterface {
                     name: "created_at",
                     type: "timestamp",
                     default: "now()"
+                }
+            ],
+            foreignKeys: [
+                {
+                    name: "FKUserSenderCompliments",
+                    referencedTableName: "users",
+                    referencedColumnNames: ["id"],
+                    columnNames: ["user_sender"],
+                    onDelete: "SET NULL",
+                    onUpdate: "SET NULL",
+                },
+                {
+                    name: "FKUserReceiverCompliments",
+                    referencedTableName: "users",
+                    referencedColumnNames: ["id"],
+                    columnNames: ["user_receiver"],
+                    onDelete: "SET NULL",
+                    onUpdate: "SET NULL",
+                },
+                {
+                    name: "FKUTagCompliments",
+                    referencedTableName: "tags",
+                    referencedColumnNames: ["id"],
+                    columnNames: ["tag_id"],
+                    onDelete: "SET NULL",
+                    onUpdate: "SET NULL",
                 }
             ]
         }))

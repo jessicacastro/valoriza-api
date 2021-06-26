@@ -30,7 +30,7 @@
 - [Ferramentas Utilizadas](#built_using)
 - [Aprendizados](#acknowledgement)
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Iniciando o Projeto <a name = "getting_started"></a>
 Aqui são algumas instruções para que você consiga rodar o projeto localmente e consiga utilizá-lo.
 
 ### Pré-Requisitos
@@ -69,11 +69,11 @@ yarn dev
 #### Cadastro de tags
   - [x] Não é permitido cadastrar mais de uma tag com o mesmo nome
   - [x] Não é permitido cadastrar uma tag sem nome
-  - [ ] Não é permitido cadastro de tags por usuários que não sejam administradores
+  - [x] Não é permitido cadastro de tags por usuários que não sejam administradores
 #### Cadastro de Elogios
-  - [ ] Não é permitido que o usuário cadastre um elogio para si
-  - [ ] Não é permitido cadastrar elogios para usuários inexistentes ou inválidos
-  - [ ] Usuário precisa estar autenticado na aplicação para cadastrar elogios
+  - [x] Não é permitido que o usuário cadastre um elogio para si
+  - [x] Não é permitido cadastrar elogios para usuários inexistentes ou inválidos
+  - [x] Usuário precisa estar autenticado na aplicação para cadastrar elogios
 
 ## ⛏️ Ferramentas Utilizadas <a name = "built_using"></a>
 
@@ -87,8 +87,10 @@ yarn dev
 
 ## 🎉 Aprendizados <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Princípios de Solid
+- Autenticação com JWT
+- Utilização do typeorm
+- Construção de API Node com Typescript
+- Utilização de SQLite
 
 <p align="center">Made by 👩🏾‍💻 <a href="https://linkedin.com/in/jessicacastros">Jessica Castro</a> with 💙</p>
