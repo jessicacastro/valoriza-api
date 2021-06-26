@@ -19,74 +19,76 @@
 ---
 
 <p align="center"> 
-  Praise other users through tags.
+  Cadastre elogios para outros usuários por meio de tags.
   <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Tabela de Conteúdo
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Acknowledgments](#acknowledgement)
-
-## 🧐 About <a name = "about"></a>
-
-Write about 1-2 paragraphs describing the purpose of your project.
+- [Regras de Negócio](#rules)
+- [Iniciando o Projeto](#getting_started)
+- [Ferramentas Utilizadas](#built_using)
+- [Aprendizados](#acknowledgement)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
+Aqui são algumas instruções para que você consiga rodar o projeto localmente e consiga utilizá-lo.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+### Pré-Requisitos
+Certifique-se de que você possui a versão LTS do node e um dos gerenciadores de pacote (yarn ou NPM) instalados.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Eu utilizei yarn, mas o processo é bem parecido para o NPM.
 
 ```
-Give the example
+node -v
+yarn -valoriza-api
+npm -v
 ```
 
-And repeat
+### Instalando
+
+Faça o download do projeto em sua máquina e rode o comando com yarn para instalar as dependências
 
 ```
-until finished
+yarn
+npm i
 ```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
+Aguarde até que todas as dependências sejam instaladas e a pasta node_modules apareça.
 ### Running
-Just use the script:
+Para rodar a aplicação na porta 3000, utilize o comando:
 ```
 yarn dev 
 ```
 
+## 🧐 Regras de Negócio <a name = "rules"></a>
+
+#### Cadastro de Usuários
+  - [ ] Não é permitido cadastrar mais de um usuário com o mesmo email
+  - [ ] Não é permitido cadastrar um usuário sem email
 
 
-## ⛏️ Built Using <a name = "built_using"></a>
+#### Cadastro de tags
+  - [x] Não é permitido cadastrar mais de uma tag com o mesmo nome
+  - [ ] Não é permitido cadastrar uma tag sem nome
+  - [ ] Não é permitido cadastro de tags por usuários que não sejam administradores
+#### Cadastro de Elogios
+  - [ ] Não é permitido que o usuário cadastre um elogio para si
+  - [ ] Não é permitido cadastrar elogios para usuários inexistentes ou inválidos
+  - [ ] Usuário precisa estar autenticado na aplicação para cadastrar elogios
 
-- [MongoDB](https://www.mongodb.com/) - SQLite
+## ⛏️ Ferramentas Utilizadas <a name = "built_using"></a>
+
+- [SQLite](https://www.sqlite.org/index.html) - SQLite
 - [Express](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [NodeJs](https://nodejs.org/en/) - TypeORM
-- [NodeJs](https://nodejs.org/en/) - Yarn
-- [NodeJs](https://nodejs.org/en/) - Typescript
+- [NodeJs](https://nodejs.org/en/) - Server Environment (Versão LTS)
+- [TypeORM](https://typeorm.io/#/) - TypeORM
+- [Yarn](https://yarnpkg.com/) - Yarn
+- [Typescript](https://www.npmjs.com/package/typescript) - Typescript
 
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Aprendizados <a name = "acknowledgement"></a>
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
 
-<p align="center">Made with [JessicaCastro](https://www.github.com/jessicacastro) </p>
+<p align="center">Made by 👩🏾‍💻 <a href="https://linkedin.com/in/jessicacastros">Jessica Castro</a> with 💙</p>
